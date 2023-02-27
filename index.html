@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+        <h1>Корзина</h1>
+<div class="items">
+            <div class="item jacket">
+                <img src="./assets/jacket.jpg" alt="jacket">
+                <div class="item-text">
+                <h2>Куртка</h2>
+                <p>Цвет: Черный</p>
+                <p>Размер: M</p>
+                <p>Количество: 1</p>
+                </div>
+                <p id="jacket-price" class="item-price">10000</p>
+                <p class="rub"> &nbsp руб.</p>
+
+            </div>
+
+            <div class="item sneakers">
+                <img src="./assets/sneakers.jpg" alt="sneakers">
+                <div class="item-text">
+                <h2>Кросовки</h2>
+                <p>Цвет: Белый</p>
+                <p>Размер: 39</p>
+                <p>Количество: 1</p>
+                </div>
+                <p id="sneakers-price" class="item-price">4000 </p>
+                   <p class="rub"> &nbsp руб.</p>
+
+            </div>
+
+            <div class="item jeans">
+                <img src="./assets/jeans.jpg" alt="jeans">
+                <div class="item-text">
+                <h2>Джинсы</h2>
+                <p>Цвет: Голубой</p>
+                <p>Размер: L</p>
+                <p>Количество: 1</p>
+                </div>
+                <p id="jeans-price" class="item-price">3000</p>
+                <p class="rub"> &nbsp руб.</p>
+
+            </div>
+
+            <div class="item belt">
+                <img src="./assets/belt.jpg" alt="belt">
+                <div class="item-text">
+                <h2>Ремень</h2>
+                <p>Цвет: Черный</p>
+                <p>Размер: 90см</p>
+                <p>Количество: 1</p>
+                </div>
+                <p id="belt-price"class="item-price">3000</p>
+                <p class="rub"> &nbsp руб.</p>
+
+            </div>
+        </div>
+        <div class="end">
+            <button class="total" onclick="price()+price2()+price3()+price4()+price5()">Использовать купон на 20%</button>
+            <div class="end1">
+            <p class="total-price">ИТОГО: &nbsp</p>
+            <p id="total-all" class="total-sum"></p>
+            <p class="rub1"> &nbsp руб.</p>
+        </div>
+        </div>
+    <script src="./index.js"></script>
+</body>
+</html>

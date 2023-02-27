@@ -1,0 +1,70 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+html,body{
+    width: 100%;
+    /* height: 100%; */
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width: 10%;
+    height: 10%;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1{
+    margin-left: 0.5em;
+}
+
+.items{
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    border: 1px solid black;
+}
+
+.total{
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.sneakers, .jeans, .belt, .jacket{
+    display: flex;
+    
+}
+
+.item-text{
+    margin-left: 2em;
+}
+.item-price {
+    margin-top: 4em;
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+    margin-left:55em;
+}
+
+.rub{
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+    margin-top: 4em;
+}
+
+.end, .end1{
+    display: flex;
+}
+.end1{
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+    margin-left: 55em;
+}
